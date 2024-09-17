@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcivico37 - B&B a Pomigliano d'Arco</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+        }
+        .room {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .room img {
+            max-width: 100%;
+            height: auto;
+        }
+        .room-description {
+            flex: 1;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Alcivico37</h1>
+    <p>Il tuo B&B a Pomigliano d'Arco - Via Torino 37</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#rooms">Camere</a>
+    <a href="#services">Servizi</a>
+    <a href="#contact">Contatti</a>
+</nav>
+
+<section id="home">
+    <h2>Benvenuti al B&B Alcivico37</h2>
+    <p>Situato nel cuore di Pomigliano d'Arco, il nostro B&B offre comfort e relax in un ambiente accogliente. Scopri le nostre camere e prenota subito il tuo soggiorno!</p>
+    <div class="contact">
+        <a href="https://wa.me/393331234567?text=Ciao!%20Vorrei%20prenotare%20una%20camera%20al%20B&B%20Alcivico37." class="whatsapp-btn">Prenota su WhatsApp</a>
+    </div>
+</section>
+
+<section id="rooms">
+    <h2>Le Nostre Camere</h2>
+    <div class="room">
+        <img src="camera1.jpg" alt="Camera 1">
+        <div class="room-description">
+            <h3>Camera Matrimoniale</h3>
+            <p>Una spaziosa camera matrimoniale con vista sulla città. Prezzo: 80€ a notte.</p>
+            <a href="https://wa.me/393331234567?text=Ciao!%20Sono%20interessato%20a%20prenotare%20la%20Camera%20Matrimoniale." class="whatsapp-btn">Prenota su WhatsApp</a>
+        </div>
+    </div>
+    <div class="room">
+        <img src="camera2.jpg" alt="Camera 2">
+        <div class="room-description">
+            <h3>Camera Singola</h3>
+            <p>Camera singola confortevole con tutti i servizi necessari. Prezzo: 50€ a notte.</p>
+            <a href="https://wa.me/393331234567?text=Ciao!%20Sono%20interessato%20a%20prenotare%20la%20Camera%20Singola." class="whatsapp-btn">Prenota su WhatsApp</a>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>I Nostri Servizi</h2>
+    <ul>
+        <li>Wi-Fi gratuito</li>
+        <li>Colazione inclusa</li>
+        <li>Parcheggio privato</li>
+        <li>Servizio in camera</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contattaci</h2>
+    <p>Indirizzo: Via Torino 37, Pomigliano d'Arco</p>
+    <p>Telefono: <a href="tel:+393331234567">+39 333 1234567</a></p>
+    <p>WhatsApp: <a href="https://wa.me/393331234567">+39 333 1234567</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Alcivico37. Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
